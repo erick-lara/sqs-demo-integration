@@ -19,7 +19,7 @@ public class SQSProducer {
     private static final Logger LOG = LoggerFactory.getLogger(SQSProducer.class);
 
     public void sendMessage(String message) {
-        LOG.info("Sending Message to SQS ...");
+        LOG.info("[PRODUCER] Sending Message to SQS. Message: {}", message);
         queueMessagingTemplate.convertAndSend(endpoint, message);
     }
 }
