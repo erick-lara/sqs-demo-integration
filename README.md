@@ -1,7 +1,7 @@
 
 # AWS SQS integration
 
-Esse projeto é apenas uma demonstração, um teste de como integrar seu projeto Spring
+Esse projeto é apenas uma demonstração de como integrar seu projeto Spring
 com o serviço do SQS (Simple Queue Service) da AWS.
 
 **IMPORTANTE**
